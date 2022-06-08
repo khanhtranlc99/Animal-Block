@@ -21,8 +21,7 @@ public class GameOver : MonoBehaviour {
         txtBestScore.text = string.Format("{0:#,#.}", (PlayerPrefs.GetInt("BestScore_" +
                                                                           GameController.gameMode.ToString()).ToString("0")));
 		//txtCoinReward.text = string.Format("{0:#,#.}", coinReward.ToString("0"));
-		GemUniAPI.Instance.CallOnLimitScore(score);
-		GemUniAPI.Instance.CallRequestSubmit();
+	
 		CurrencyManager.Instance.AddCoinBalance (coinReward);
 	}
 
