@@ -60,19 +60,27 @@
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Help\InGameHelp.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\MainScreen.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\AutoDestroy.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\BlockShapeSpawner.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\InputManager\InputManager.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Third\GlobalEventManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\SoundButton.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\UIScreen.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\CurrencyManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\MusicButton.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Third\FirebaseManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\UIScripts\GameInfo.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Third\AppConfig.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Third\AdsManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Settings.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Timer.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\BackgroundMusic.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\OptionPanel.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Shop.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\SelectMode.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\GamePlayUI.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\GameController.cs" />
@@ -87,41 +95,52 @@
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\GamePlay.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\CoinBalance.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\StackManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\UIScripts\GameOver.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\QuitconfirmGame.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Help\HelpClassic.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Help\HelpPopup.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\GameBoardGenerator.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\GameProgressManager.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Index.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\ShapeInfo.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\UIScripts\GameModeData.cs" />
-    <Compile Include="Assets\Block-Puzzle-Jewel\Third\AdsManager.cs" />
-    <Compile Include="Assets\Block-Puzzle-Jewel\Third\AppConfig.cs" />
-    <Compile Include="Assets\Block-Puzzle-Jewel\Third\FirebaseManager.cs" />
-    <Compile Include="Assets\Block-Puzzle-Jewel\Third\GlobalEventManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demigiant\DOTween\DOTween46.dll" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\FacebookSDK\Plugins\iOS\Facebook.Unity.IOS.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Common.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.dll" />
     <None Include="Assets\ThirdParty\DownloadInappReview.txt" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.iOS.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-7.0.2_manifest.txt" />
+    <None Include="Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Core.dll" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.dll" />
     <None Include="Assets\GoogleMobileAds\link.xml" />
+    <None Include="Assets\FacebookSDK\Plugins\Facebook.Unity.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll" />
     <None Include="Assets\Block-Puzzle-Jewel\Resources\BoardTemplate.xml" />
+    <None Include="Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Android.dll" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
     <None Include="Assets\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -337,11 +356,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Unity2020.3.15f2\2020.3.15f2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="GoogleMobileAds.Core">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="GoogleMobileAds">
       <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
@@ -352,23 +386,26 @@
     <Reference Include="DOTween46">
       <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Common">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Library\PackageCache\com.google.firebase.analytics@322445165652-1645628298981\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.RemoteConfig">
+      <HintPath>Library\PackageCache\com.google.firebase.remote-config@c84d929ceeca-1645628292677\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.TaskExtension">
-      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Google.MiniJson.dll</HintPath>
@@ -379,14 +416,8 @@
     <Reference Include="Unity.Compat">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.App">
-      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.App.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Library\PackageCache\com.google.firebase.analytics@322445165652-1645628298981\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.RemoteConfig">
-      <HintPath>Library\PackageCache\com.google.firebase.remote-config@c84d929ceeca-1645628292677\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:\Unity2020.3.15f2\2020.3.15f2\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

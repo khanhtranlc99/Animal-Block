@@ -60,7 +60,9 @@
     <Compile Include="Assets\Block-Puzzle-Jewel\Editor\Scripts\DependencyChecker.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\FacebookSDK\Plugins\Editor\Dependencies.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.171_manifest.txt" />
   </ItemGroup>
@@ -305,26 +307,8 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Core">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Unity">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
       <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
@@ -332,44 +316,77 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="GoogleMobileAds.Common">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
+    <Reference Include="Firebase.App">
+      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.PackageManagerResolver">
-      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.PackageManagerResolver.dll</HintPath>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
-    <Reference Include="Google.IOSResolver">
-      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.IOSResolver.dll</HintPath>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
     </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.JarResolver.dll</HintPath>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Editor\Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Library\PackageCache\com.google.firebase.analytics@322445165652-1645628298981\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.RemoteConfig">
+      <HintPath>Library\PackageCache\com.google.firebase.remote-config@c84d929ceeca-1645628292677\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.TaskExtension">
-      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.PackageManagerResolver.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.IOSResolver.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.Platform.dll</HintPath>
@@ -377,14 +394,14 @@
     <Reference Include="Unity.Compat">
       <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.App">
-      <HintPath>Library\PackageCache\com.google.firebase.app@017f232dabc0-1645628481519\Firebase\Plugins\Firebase.App.dll</HintPath>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Library\PackageCache\com.google.firebase.analytics@322445165652-1645628298981\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.RemoteConfig">
-      <HintPath>Library\PackageCache\com.google.firebase.remote-config@c84d929ceeca-1645628292677\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@9d128637b9e3-1645628233640\ExternalDependencyManager\Editor\1.2.169\Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
