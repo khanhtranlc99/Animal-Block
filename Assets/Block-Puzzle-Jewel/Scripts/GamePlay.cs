@@ -634,7 +634,7 @@ public class GamePlay : Singleton<GamePlay>,IPointerDownHandler,IPointerUpHandle
     IEnumerator ShowAds()
     {
         yield return new WaitForSeconds(0.5f);
-      //  AdsControl.Instance.showAds();
+		AdsManager.Instance.ShowInterstitial22();
     }
 
 	#region Bomb Mode Specific
