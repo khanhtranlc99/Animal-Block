@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-examples", "spi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSignal.UnityPackage.Attribution", "OneSignal.UnityPackage.Attribution.csproj", "{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSignal.UnityPackage.Example", "OneSignal.UnityPackage.Example.csproj", "{056F51D3-4CD5-2724-3A5C-717E9106878D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds.Editor", "GoogleMobileAds.Editor.csproj", "{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{CB94364B-D630-7FDE-5E64-3C11EB0A6E9B}"
@@ -14,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{198A59DE-9518-F65F-18AA-BE5D6EB592B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-examples-editor", "spine-unity-examples-editor.csproj", "{1094F3F5-216F-DE83-D383-BE219CF48188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSignal.UnityPackage.Editor", "OneSignal.UnityPackage.Editor.csproj", "{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,14 @@ Global
 		{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056F51D3-4CD5-2724-3A5C-717E9106878D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056F51D3-4CD5-2724-3A5C-717E9106878D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056F51D3-4CD5-2724-3A5C-717E9106878D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056F51D3-4CD5-2724-3A5C-717E9106878D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +63,10 @@ Global
 		{1094F3F5-216F-DE83-D383-BE219CF48188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1094F3F5-216F-DE83-D383-BE219CF48188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1094F3F5-216F-DE83-D383-BE219CF48188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

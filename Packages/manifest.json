@@ -4,6 +4,9 @@
     "com.google.firebase.analytics": "file:../Assets/ThirdParty/com.google.firebase.analytics-8.8.0.tgz",
     "com.google.firebase.app": "file:../Assets/ThirdParty/com.google.firebase.app-8.8.0.tgz",
     "com.google.firebase.remote-config": "file:../Assets/ThirdParty/com.google.firebase.remote-config-8.8.0.tgz",
+    "com.onesignal.unity.android": "3.0.1",
+    "com.onesignal.unity.core": "3.0.1",
+    "com.onesignal.unity.ios": "3.0.1",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.7.1",
     "com.unity.ide.rider": "2.0.7",
@@ -44,5 +47,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.onesignal"
+      ]
+    }
+  ]
 }

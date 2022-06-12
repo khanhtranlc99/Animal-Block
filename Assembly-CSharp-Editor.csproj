@@ -799,6 +799,9 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="OneSignal.Core">
+      <HintPath>Library\ScriptAssemblies\OneSignal.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
@@ -824,6 +827,18 @@
     <ProjectReference Include="spine-unity-editor.csproj">
       <Project>{198A59DE-9518-F65F-18AA-BE5D6EB592B3}</Project>
       <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OneSignal.UnityPackage.Example.csproj">
+      <Project>{056F51D3-4CD5-2724-3A5C-717E9106878D}</Project>
+      <Name>OneSignal.UnityPackage.Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="OneSignal.UnityPackage.Editor.csproj">
+      <Project>{8CC98C87-2F20-14E5-67D5-9CA6F75843AA}</Project>
+      <Name>OneSignal.UnityPackage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OneSignal.UnityPackage.Attribution.csproj">
+      <Project>{3401616B-DE4B-B848-CAF6-0E7D0E0E6099}</Project>
+      <Name>OneSignal.UnityPackage.Attribution</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
