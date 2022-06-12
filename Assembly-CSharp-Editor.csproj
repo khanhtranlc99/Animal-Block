@@ -809,6 +809,22 @@
       <Project>{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}</Project>
       <Name>GoogleMobileAds.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{46302838-110C-1F38-EC1D-9E173C26B067}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{1094F3F5-216F-DE83-D383-BE219CF48188}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{198A59DE-9518-F65F-18AA-BE5D6EB592B3}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

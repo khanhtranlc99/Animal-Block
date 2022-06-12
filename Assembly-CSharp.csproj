@@ -112,8 +112,11 @@
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\ShapeInfo.cs" />
     <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\UIScripts\GameModeData.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\Loading.cs" />
+    <Compile Include="Assets\Block-Puzzle-Jewel\Scripts\SpineExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Spine\version.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.dll" />
     <None Include="Assets\FacebookSDK\link.xml" />
     <None Include="Assets\FacebookSDK\Plugins\iOS\Facebook.Unity.IOS.dll" />
@@ -138,6 +141,7 @@
     <None Include="Assets\Demigiant\DOTween\DOTween43.dll" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Android.dll" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Block-Puzzle-Jewel\Animations\Animlogo\t\skeleton.atlas.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
     <None Include="Assets\Demigiant\DOTween\DOTween.dll" />
     <None Include="Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll" />
@@ -808,6 +812,22 @@
     <ProjectReference Include="GoogleMobileAds.Editor.csproj">
       <Project>{16EC7E0C-F842-2538-50CD-BE851B3BEEC7}</Project>
       <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{C59308AC-6CA4-CFAE-34CB-DEA0904D853D}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{46302838-110C-1F38-EC1D-9E173C26B067}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{1094F3F5-216F-DE83-D383-BE219CF48188}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{198A59DE-9518-F65F-18AA-BE5D6EB592B3}</Project>
+      <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
